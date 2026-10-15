@@ -25,6 +25,7 @@ DEFAULT_CFG = {
 
 class NoticeConfig(AppConfig):
     name = MODULE_NAME
+    verbose_name = "Home Messages"
 
     gql_query_notices_perms = []
     gql_query_notice_admins_perms = []

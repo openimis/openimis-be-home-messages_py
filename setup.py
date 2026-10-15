@@ -8,12 +8,12 @@ with open(os.path.join(os.path.dirname(__file__), 'README.md')) as readme:
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name='openimis-be-notice',
+    name='openimis-be-home-messages',
     version='1.0.0',
     packages=find_packages(),
     include_package_data=True,
     license='GNU AGPL v3',
-    description='The openIMIS Backend Notice reference module.',
+    description='The openIMIS Backend Home Messages reference module.',
     long_description=README,
     long_description_content_type='text/markdown',
     url='https://openimis.org/',
